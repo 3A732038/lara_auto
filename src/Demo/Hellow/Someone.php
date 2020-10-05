@@ -1,9 +1,9 @@
 <?php
-namespace Demo\Hello;
+namespace Demo\Hellow;
 class Someone
 {
     function __construct($name)
     {
-        echo 'Hello '.$name.PHP_EOL;
+        echo 'Hello '.$name.'~<br>'.PHP_EOL;
     }
 }
